@@ -1,0 +1,77 @@
+.banner-container{
+    margin-top: 50px;
+    /* width: 100%; */
+    /* margin-left:10vw;
+    margin-right:10vw; */
+    display: flex;
+    justify-content: space-around;
+  
+
+}
+.left-box{
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    /* width: 50%; */
+    margin-top: 30px;
+    
+}
+.left-box h1{
+    color: #5e447b;
+    font-size: 4rem;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    max-width: 400px;
+}
+.left-box .heading{
+    text-transform: capitalize;
+    font-size: 2.5rem;
+}
+.left-box .subheading{
+    color:#B093CE ;
+    font-size: 1.4rem;
+}
+.left-box button{
+    margin-top: 20px;
+   
+    color:black;
+    padding: 12px;
+    width: 10rem;
+    font-size: 1.4rem;
+    border: none;
+    outline: none;
+    background: transparent rgb(28, 121, 28);
+    transition: all ease-in 0.4s;
+}
+
+.left-box button:hover{
+    background:rgb(17, 128, 17);
+    color: white;
+
+     
+}
+
+.right-box{
+    /* width: 50%; */
+    background: #f5fef5;;
+    margin-right: 10vw;
+    border-radius: 10px;
+    border: 1px solid green;
+    padding: 8px;
+    box-shadow: 8px 3px 1px rgb(17, 128, 17);
+  
+}
+.extra-box{
+    background:transparent;
+    padding: 2px;
+    position: relative;
+    top: 150px;
+    left: 130px;
+    z-index: 1;
+    /* border: 1px solid green; */
+    box-shadow: 8px 3px 1px rgb(123, 90, 90);
+  
+   
+    
+}
+
+

@@ -4,7 +4,7 @@ import banner2 from '../assets/images/banner2.png';
 
 const Banner = () => {
   return (
-    <div className='banner-container container m-auto mt-3 flex flex-col-reverse lg:flex-row items-center justify-between px-4 py-8 bg-red-400shadow-inherit rounded-md lg:py-16'>
+    <div className='banner-container container m-auto mt-3 flex flex-col-reverse lg:flex-row items-center justify-between px-4 py-8 bg-red-400 shadow-inherit rounded-md lg:py-16'>
       {/* Left Box */}
       <div className="left-box text-center lg:text-left lg:w-1/2 space-y-4 lg:space-y-6">
         <h1 className='text-3xl lg:text-10xl font-bold'>Learn</h1>
